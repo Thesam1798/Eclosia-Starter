@@ -1,0 +1,8 @@
+name: Starter
+version: ${project.version}
+main: life.eclosia.starter.Main
+api-version: 1.15.2
+prefix: _PLUGIN_NAME_
+authors: [Thesam1798]
+description: Starter for plugin
+website: https://eclosia.life
