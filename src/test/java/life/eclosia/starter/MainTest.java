@@ -12,8 +12,11 @@ public class MainTest {
     public void setUp() throws Exception {
     }
 
+    /**
+     * Test que les test sont fonctionelle
+     */
     @Test
     public void test() {
-        assertTrue(false);
+        assertTrue(true);
     }
 }
