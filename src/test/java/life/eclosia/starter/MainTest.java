@@ -2,14 +2,16 @@ package life.eclosia.starter;
 
 import org.junit.Before;
 import org.junit.Test;
-import org.junit.runners.JUnit4;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertTrue;
 
 public class MainTest {
 
+    /**
+     * Set Up for Test
+     */
     @Before
-    public void setUp() throws Exception {
+    public void setUp() {
     }
 
     /**
