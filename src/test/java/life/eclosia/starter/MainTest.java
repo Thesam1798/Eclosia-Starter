@@ -2,6 +2,7 @@ package life.eclosia.starter;
 
 import org.junit.Before;
 import org.junit.Test;
+import org.mockito.Spy;
 
 import static org.junit.Assert.assertTrue;
 
@@ -11,10 +12,17 @@ import static org.junit.Assert.assertTrue;
 public class MainTest {
 
     /**
+     * Bean a tester
+     */
+    @Spy
+    private Main bean;
+
+    /**
      * Set Up for Test
      */
     @Before
     public void setUp() {
+        //Setup des mock
     }
 
     /**
